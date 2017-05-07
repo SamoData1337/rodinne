@@ -1,4 +1,4 @@
-<?php if (!defined(´BASEPATH´)) exit(´No direct script access allowed´); ?>
+<?php if (!defined( 'BASEPATH ')) exit( 'No direct script access allowed '); ?>
 <div class="container">
     <div class="row">
         <div class="page-header">
@@ -16,7 +16,7 @@
             </div>
             <?php
             endif;
-            echo form_open(´operacie/edit/´.$objednavky_item[´ID´],array(´class´=>´form_horizontal´));?>
+            echo form_open( 'operacie/edit/ '.$objednavky_item[ 'ID '],array( 'class '=> 'form_horizontal '));?>
         <div class="form-group">
             <?php foreach ($objednavky_item as $key => $value):?>
             <div class="form-group">

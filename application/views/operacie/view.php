@@ -1,4 +1,4 @@
-<?php if (!defined(´BASEPATH´)) exit(´No direct script access allowed´); ?>
+<?php if (!defined( 'BASEPATH ')) exit( 'No direct script access allowed '); ?>
 <table>
 <div class="container">
     <div class="row">

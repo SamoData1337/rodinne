@@ -7,7 +7,12 @@
 
 <script type="text/javascript">
     $(document).ready(function () {
-        $(´#usertable´).DataTable();
+        $( '#usertable').DataTable({
+            "ajax": {
+                url : "<?php echo site_url("users/users_page") ?>",
+                type : 'GET'
+            },
+        });
     });
 </script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" crossorigin="anonymous"></script>
