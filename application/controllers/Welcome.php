@@ -28,6 +28,23 @@ class Welcome extends CI_Controller {
         $this->load->view('template/footer');
     }
 
+    public function users()
+    {
+        $this->load->view('template/header');
+        $this->load->view('template/navigation');
+        $this->load->view('users');
+        $this->load->view('template/footer');
+    }
+
+    public function me()
+    {
+        $this->load->view('template/header');
+        $this->load->view('template/navigation');
+        $this->load->view('me');
+        $this->load->view('template/footer');
+    }
+
+
 	public function index()
 	{
 		$this->load->view('template/header');
